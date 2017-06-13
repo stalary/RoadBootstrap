@@ -1,0 +1,24 @@
+body{
+    background: url("../images/log.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+
+input {
+    background-color: transparent;
+}
+
+button {
+    background-color: transparent;
+    width: 70px;
+    height: 25px;
+    font-size: 15px;
+}
+
+.change {
+    margin-left:70px;
+}
+
+.change1 {
+    margin-left:40px;
+}
+

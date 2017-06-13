@@ -1,0 +1,14 @@
+body{
+    background: url("../images/register.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+
+input {
+    background-color: transparent;
+    margin-right: 10px;
+}
+
+.re_content p {
+    padding: 40px 10px 0px 10px;
+}
+
