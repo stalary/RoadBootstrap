@@ -26,7 +26,7 @@ To change this template use File | Settings | File Templates.
 </head>
 <body>
 <div class="container">
-    <<div class="row">
+    <div class="row">
     <div class="page-header">
         <h1>预约记录</h1>
     </div>

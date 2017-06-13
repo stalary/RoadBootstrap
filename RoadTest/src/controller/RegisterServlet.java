@@ -21,7 +21,7 @@ public class RegisterServlet extends HttpServlet {
         String phone = request.getParameter("phone");
         RegisterServiceImpl re = new RegisterServiceImpl(account,password,name,phone);
         int tempReturn = re.judge();
-        if(account.equals("")||account.equals(null)) {
+        if(account.equals(null)||account.length()<3||account.charAt(0)<='9'||account.charAt(0)>=128 ){
             response.sendRedirect(request.getContextPath() + "/register_false_format.jsp");
         } else{
             if (tempReturn == 1) {
