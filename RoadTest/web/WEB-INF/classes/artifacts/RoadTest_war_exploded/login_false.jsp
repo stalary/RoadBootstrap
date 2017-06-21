@@ -67,7 +67,8 @@
             </div>
         </div>
     </div>
-    <form action="controller/LoginServlet" method="post" class="text-info top change" id="login">
+    <form action="controller/LoginServlet" method="post" class="text-info top change">
+        <p style="color: #ff0c46">帐号/密码错误,请重试</p>
         <p>账号：<input type="text" name="account" class="lg_account" placeholder="手机号／邮箱"/></p>
         <p>密码：<input type="password" name="password" class="lg_password"/></p>
         <div class="row">
@@ -98,7 +99,6 @@
 </div>
 <script src="js/jQuery-3.2.1.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
-
 <script>
     $(document).ready(function () {
         dropdownOpen();//调用
@@ -113,7 +113,6 @@
             $(this).removeClass('open');
         });
     }
-
 </script>
 </body>
 </html>
